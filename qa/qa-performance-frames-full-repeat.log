@@ -1,0 +1,24 @@
+1920x1080 light full | theme=light stage=live card=blur(20px) saturate(0.7) brightness(1.05) | 714 frames, avg 59.5 fps, p50 16.7 ms, p95 16.8 ms, p99 16.8 ms, max 83.3 ms | >25ms: 3 >50ms: 1 | long tasks during: 0
+   >25ms at: 33.3ms@y1705(city), 83.3ms@y2390(city), 33.3ms@y6518(client-work)
+1920x1080 dark  full | theme=dark stage=live card=blur(22px) saturate(0.5) brightness(0.6) | 705 frames, avg 58.8 fps, p50 16.7 ms, p95 16.8 ms, p99 33.3 ms, max 50 ms | >25ms: 12 >50ms: 0 | long tasks during: 1
+   >25ms at: 50ms@y1705(city), 33.3ms@y1865(city), 50ms@y2608(about), 33.3ms@y2608(about), 33.4ms@y2636(about), 33.3ms@y3310(about), 33.4ms@y3696(experience), 33.3ms@y5903(client-work), 50ms@y5971(client-work), 33.3ms@y6559(client-work), 33.4ms@y6682(client-work), 33.3ms@y7005(workshop)
+1440x900 light full | theme=light stage=live card=blur(20px) saturate(0.7) brightness(1.05) | 720 frames, avg 60 fps, p50 16.7 ms, p95 16.8 ms, p99 16.8 ms, max 16.8 ms | >25ms: 0 >50ms: 0 | long tasks during: 0
+1440x900 dark  full | theme=dark stage=live card=blur(22px) saturate(0.5) brightness(0.6) | 715 frames, avg 59.6 fps, p50 16.7 ms, p95 16.8 ms, p99 16.8 ms, max 66.8 ms | >25ms: 3 >50ms: 1 | long tasks during: 1
+   >25ms at: 33.3ms@y1418(city), 66.8ms@y2322(about), 33.3ms@y3172(experience)
+1920x1080 light full | theme=light stage=live card=blur(20px) saturate(0.7) brightness(1.05) | 718 frames, avg 59.8 fps, p50 16.7 ms, p95 16.8 ms, p99 16.8 ms, max 33.4 ms | >25ms: 2 >50ms: 0 | long tasks during: 0
+   >25ms at: 33.4ms@y3696(experience), 33.3ms@y4774(epost)
+1920x1080 dark  full | theme=dark stage=live card=blur(22px) saturate(0.5) brightness(0.6) | 708 frames, avg 59 fps, p50 16.7 ms, p95 16.8 ms, p99 16.8 ms, max 166.7 ms | >25ms: 3 >50ms: 1 | long tasks during: 0
+   >25ms at: 50ms@y6532(client-work), 166.7ms@y8294(education), 33.4ms@y8441(education)
+1440x900 light full | theme=light stage=live card=blur(20px) saturate(0.7) brightness(1.05) | 715 frames, avg 59.6 fps, p50 16.7 ms, p95 16.7 ms, p99 16.8 ms, max 33.4 ms | >25ms: 5 >50ms: 0 | long tasks during: 0
+   >25ms at: 33.3ms@y3224(experience), 33.3ms@y5185(client-work), 33.3ms@y5209(client-work), 33.4ms@y5256(client-work), 33.3ms@y5280(client-work)
+1440x900 dark  full | theme=dark stage=live card=blur(22px) saturate(0.5) brightness(0.6) | 717 frames, avg 59.8 fps, p50 16.7 ms, p95 16.7 ms, p99 16.8 ms, max 33.4 ms | >25ms: 3 >50ms: 0 | long tasks during: 0
+   >25ms at: 33.4ms@y1431(city), 33.4ms@y5649(client-work), 33.3ms@y6476(workshop)
+1920x1080 light full | theme=light stage=live card=blur(20px) saturate(0.7) brightness(1.05) | 719 frames, avg 59.9 fps, p50 16.7 ms, p95 16.7 ms, p99 16.8 ms, max 33.4 ms | >25ms: 1 >50ms: 0 | long tasks during: 0
+   >25ms at: 33.4ms@y5848(client-work)
+1920x1080 dark  full | theme=dark stage=live card=blur(22px) saturate(0.5) brightness(0.6) | 716 frames, avg 59.7 fps, p50 16.7 ms, p95 16.8 ms, p99 16.8 ms, max 33.4 ms | >25ms: 4 >50ms: 0 | long tasks during: 0
+   >25ms at: 33.4ms@y1705(city), 33.2ms@y2608(about), 33.2ms@y3696(experience), 33.4ms@y6149(client-work)
+1440x900 light full | theme=light stage=live card=blur(20px) saturate(0.7) brightness(1.05) | 703 frames, avg 58.6 fps, p50 16.7 ms, p95 16.7 ms, p99 33.3 ms, max 66.7 ms | >25ms: 12 >50ms: 2 | long tasks during: 3
+   >25ms at: 50ms@y4125(epost), 33.3ms@y4224(epost), 33.4ms@y4272(epost), 33.3ms@y4297(epost), 33.3ms@y5158(client-work), 33.3ms@y5219(client-work), 33.4ms@y5243(client-work), 33.3ms@y5268(client-work), 33.3ms@y5209(client-work), 33.4ms@y5268(client-work), 66.7ms@y5661(client-work), 66.6ms@y5708(client-work)
+1440x900 dark  full | theme=dark stage=live card=blur(22px) saturate(0.5) brightness(0.6) | 718 frames, avg 59.8 fps, p50 16.7 ms, p95 16.8 ms, p99 16.8 ms, max 33.4 ms | >25ms: 2 >50ms: 0 | long tasks during: 0
+   >25ms at: 33.3ms@y2322(about), 33.4ms@y3224(experience)
+GPU: ANGLE (Intel, Intel(R) UHD Graphics (0x00009B41) Direct3D11 vs_5_0 ps_5_0, D3D11)

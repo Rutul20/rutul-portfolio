@@ -1,0 +1,4 @@
+persistent-profile launch 1: isolated blur 1920x1080 light run1: card bf=blur(20px) saturate(0.7) brightness(1.05) entryY=2368 (pre-layout est 2456) frames=34 p95=16.8ms >40ms: 100@y2382 | AT CARD ENTRY (+-80px): 100ms
+persistent-profile launch 2: isolated blur 1920x1080 light run1: card bf=blur(20px) saturate(0.7) brightness(1.05) entryY=2368 (pre-layout est 2456) frames=19 p95=266.7ms >40ms: 266.7@y2397, 83.3@y2668 | AT CARD ENTRY (+-80px): 266.7ms
+persistent-profile launch 3: isolated blur 1920x1080 light run1: card bf=blur(20px) saturate(0.7) brightness(1.05) entryY=2368 (pre-layout est 2456) frames=27 p95=33.3ms >40ms: 183.3@y2382 | AT CARD ENTRY (+-80px): 183.3ms
+persistent-profile launch 4: isolated blur 1920x1080 light run1: card bf=blur(20px) saturate(0.7) brightness(1.05) entryY=2368 (pre-layout est 2456) frames=34 p95=16.8ms >40ms: 100.1@y2382 | AT CARD ENTRY (+-80px): 100.1ms

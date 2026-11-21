@@ -1,0 +1,12 @@
+run 1 1920x1080 light preWait 1500:252 frames, >25ms 6, >40ms: 83.4ms@y1054(t5960), 116.6ms@y1702(t6710), 216.7ms@y2395(t7576), 50ms@y2636(t7676)
+run 2 1920x1080 light preWait 1500:275 frames, >25ms 3, >40ms: none
+cpu 26
+run 1 1920x1080 dark preWait 1500:269 frames, >25ms 4, >40ms: 50ms@y1702(t5798), 99.9ms@y2395(t6615)
+run 2 1920x1080 dark preWait 1500:277 frames, >25ms 1, >40ms: none
+cpu 28
+run 1 1920x1080 light preWait 1500:264 frames, >25ms 4, >40ms: 50ms@y1054(t5025), 83.3ms@y1702(t5775), 133.3ms@y2395(t6591)
+run 2 1920x1080 light preWait 1500:276 frames, >25ms 2, >40ms: none
+cpu 24
+run 1 1920x1080 dark preWait 1500:256 frames, >25ms 12, >40ms: 50.1ms@y1054(t5062), 66.7ms@y1702(t5796), 133.4ms@y2395(t6629), 50ms@y3690(t7979)
+run 2 1920x1080 dark preWait 1500:277 frames, >25ms 1, >40ms: none
+cpu 23

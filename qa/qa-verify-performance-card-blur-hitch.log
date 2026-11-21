@@ -1,0 +1,17 @@
+full blur 1920x1080 light run1: card bf=blur(20px) saturate(0.7) brightness(1.05) entryY=2368 (pre-layout est 2456) frames=267 p95=16.8ms >40ms: 50@y1054, 66.8@y1702, 100@y2395 | AT CARD ENTRY (+-80px): 100ms
+full noblur 1920x1080 light run1: card bf=none entryY=2368 (pre-layout est 2456) frames=272 p95=16.8ms >40ms: 50@y1054, 50@y1702, 50@y2139 | AT CARD ENTRY (+-80px): none
+full blur 1920x1080 light run1: card bf=blur(20px) saturate(0.7) brightness(1.05) entryY=2368 (pre-layout est 2456) frames=254 p95=16.8ms >40ms: 83.4@y1054, 83.3@y1702, 166.6@y2395, 50@y3554 | AT CARD ENTRY (+-80px): 166.6ms
+full noblur 1920x1080 light run1: card bf=none entryY=2368 (pre-layout est 2456) frames=234 p95=33.4ms >40ms: 66.7@y1054, 150@y1717, 150@y2124, 49.9@y2636, 49.9@y2726, 50@y2967, 50@y3087, 50@y3238, 49.9@y3328, 49.9@y3434 | AT CARD ENTRY (+-80px): none
+full blur 1920x1080 light run1: card bf=blur(20px) saturate(0.7) brightness(1.05) entryY=2368 (pre-layout est 2456) frames=218 p95=50ms >40ms: 66.7@y1702, 66.7@y1777, 150.1@y2139, 233.4@y2395, 50@y2831, 66.7@y3012, 100.1@y3178, 66.7@y3389, 50.1@y3494, 50@y3690, 66.6@y3750 | AT CARD ENTRY (+-80px): 233.4ms
+full noblur 1920x1080 light run1: card bf=none entryY=2368 (pre-layout est 2456) frames=270 p95=16.7ms >40ms: 50@y1054, 66.7@y1702, 66.7@y2139 | AT CARD ENTRY (+-80px): none
+full blur 1920x1080 light run1: card bf=blur(20px) saturate(0.7) brightness(1.05) entryY=2368 (pre-layout est 2456) frames=205 p95=33.4ms >40ms: 50@y1054, 116.7@y1702, 49.9@y2078, 166.7@y2154, 433.3@y2425, 50@y2816, 66.6@y2861, 200@y3645, 66.7@y3840 | AT CARD ENTRY (+-80px): 433.3ms
+full noblur 1920x1080 light run1: card bf=none entryY=2368 (pre-layout est 2456) frames=235 p95=33.4ms >40ms: 83.4@y1054, 133.3@y1702, 166.6@y2124, 50@y3057, 66.7@y3705, 50.1@y3870 | AT CARD ENTRY (+-80px): none
+isolated blur 1920x1080 light run1: card bf=blur(20px) saturate(0.7) brightness(1.05) entryY=2368 (pre-layout est 2456) frames=23 p95=50ms >40ms: 250@y2382, 50@y2623 | AT CARD ENTRY (+-80px): 250ms
+isolated noblur 1920x1080 light run1: card bf=none entryY=2368 (pre-layout est 2456) frames=31 p95=50ms >40ms: 50@y2578, 50@y2638 | AT CARD ENTRY (+-80px): none
+isolated blur 1920x1080 light run1: card bf=blur(20px) saturate(0.7) brightness(1.05) entryY=2368 (pre-layout est 2456) frames=15 p95=283.3ms >40ms: 100@y2307, 283.3@y2427, 66.6@y2698 | AT CARD ENTRY (+-80px): 100ms, 283.3ms
+isolated noblur 1920x1080 light run1: card bf=none entryY=2368 (pre-layout est 2456) frames=29 p95=50ms >40ms: 50@y2487, 83.3@y2638, 50@y2728 | AT CARD ENTRY (+-80px): none
+isolated blur 1920x1080 light run1: card bf=blur(20px) saturate(0.7) brightness(1.05) entryY=2368 (pre-layout est 2456) frames=28 p95=50ms >40ms: 166.8@y2382, 50@y2608 | AT CARD ENTRY (+-80px): 166.8ms
+isolated noblur 1920x1080 light run1: card bf=none entryY=2368 (pre-layout est 2456) frames=38 p95=16.8ms >40ms: none | AT CARD ENTRY (+-80px): none
+isolated blur 1920x1080 light run1: card bf=blur(20px) saturate(0.7) brightness(1.05) entryY=2368 (pre-layout est 2456) frames=35 p95=16.8ms >40ms: 83.3@y2382 | AT CARD ENTRY (+-80px): 83.3ms
+isolated noblur 1920x1080 light run1: card bf=none entryY=2368 (pre-layout est 2456) frames=38 p95=16.8ms >40ms: none | AT CARD ENTRY (+-80px): none
+isolated blur 1920x1080 light run1: card bf=blur(20px) saturate(0.7) brightness(1.05) entryY=2368 (pre-layout est 2456) frames=34 p95=16.8ms >40ms: 100@y2382 | AT CARD ENTRY (+-80px): 100ms

@@ -1,0 +1,19 @@
+1440x900: 11 programs at load, 4 during the dive
+
+@y1436 MeshDepthMaterial #b07308de IDENTICAL SOURCE to a load-time program
+  cacheKey fields that differ: [36] load=0 swap=1  [40] load=0 swap=1  [43] load=0 swap=1
+  load key: depth,highp,srgb-linear,false,false,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,,false,false,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,3200,8388611,8532992,srgb,onBeforeCompile(){}
+  swap key: depth,highp,srgb-linear,false,false,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,,false,false,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,3200,8388611,8532992,srgb,onBeforeCompile(){}
+
+@y1436 MeshDepthMaterial #9909536b IDENTICAL SOURCE to a load-time program
+  cacheKey fields that differ: [36] load=0 swap=1  [40] load=0 swap=1  [43] load=0 swap=1
+  load key: depth,highp,srgb-linear,false,false,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,,false,false,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,3200,8388609,8532992,srgb,onBeforeCompile(){}
+  swap key: depth,highp,srgb-linear,false,false,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,,false,false,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,3200,8388609,8532992,srgb,onBeforeCompile(){}
+
+@y1436 MeshDepthMaterial #e0660511 IDENTICAL SOURCE to a load-time program
+  cacheKey fields that differ: [36] load=0 swap=1  [40] load=0 swap=1  [43] load=0 swap=1
+  load key: depth,highp,srgb-linear,false,false,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,,false,false,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,3200,8388608,8532992,srgb,onBeforeCompile(){}
+  swap key: depth,highp,srgb-linear,false,false,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,,false,false,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,3200,8388608,8532992,srgb,onBeforeCompile(){}
+
+@y1436 MeshLambertMaterial #9771b366 new source
+  key: lambert,highp,srgb,false,false,,,uv,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,0,false,false,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,8388608,8522754,srgb,onBeforeCompile(){}

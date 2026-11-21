@@ -1,0 +1,25 @@
+run 1 1440x900 dark cold cpu61% | 476 frames p95 16.7 max 66.7 | cloud onset y866 max 50 | first-scroll(y<400) max 16.8 | >40ms: 50ms@y869[CLOUD-ONSET], 66.7ms@y1407[other]
+     LoAF t9487 53ms render+52 scripts:-
+     LoAF t11989 86ms render+14 scripts:user-callback:71ms
+run 1 1440x900 dark warm cpu44% | 481 frames p95 16.7 max 16.8 | cloud onset y866 max 16.8 | first-scroll(y<400) max 16.8 | >40ms: none
+   gpu: ANGLE (Intel, Intel(R) UHD Graphics (0x00009B41) Direct3D11 vs_5_0 ps_5_0, D3D11)
+run 2 1440x900 dark cold cpu59% | 478 frames p95 16.8 max 50 | cloud onset y866 max 50 | first-scroll(y<400) max 16.8 | >40ms: 50ms@y869[CLOUD-ONSET]
+     LoAF t7756 50ms render+49 scripts:-
+     LoAF t10255 63ms render+16 scripts:user-callback:46ms
+run 2 1440x900 dark warm cpu10% | 481 frames p95 16.7 max 16.8 | cloud onset y866 max 16.7 | first-scroll(y<400) max 16.8 | >40ms: none
+run 3 1440x900 dark cold cpu7% | 476 frames p95 16.8 max 83.3 | cloud onset y866 max 33.3 | first-scroll(y<400) max 16.8 | >40ms: 83.3ms@y1407[other]
+     LoAF t10272 109ms render+15 scripts:user-callback:92ms
+run 3 1440x900 dark warm cpu39% | 481 frames p95 16.8 max 16.8 | cloud onset y866 max 16.7 | first-scroll(y<400) max 16.8 | >40ms: none
+run 4 1440x900 dark cold cpu59% | 467 frames p95 16.7 max 50.1 | cloud onset y866 max 50 | first-scroll(y<400) max 16.8 | >40ms: 50ms@y869[CLOUD-ONSET], 50ms@y1407[other], 50ms@y1639[other], 50.1ms@y1653[other]
+     LoAF t7773 61ms render+59 scripts:-
+     LoAF t10272 81ms render+16 scripts:user-callback:64ms
+run 4 1440x900 dark warm cpu49% | 481 frames p95 16.7 max 16.8 | cloud onset y866 max 16.7 | first-scroll(y<400) max 16.8 | >40ms: none
+run 5 1440x900 dark cold cpu11% | 474 frames p95 16.8 max 83.3 | cloud onset y866 max 66.6 | first-scroll(y<400) max 16.8 | >40ms: 66.6ms@y869[CLOUD-ONSET], 83.3ms@y1407[other]
+     LoAF t8679 74ms render+72 scripts:-
+     LoAF t11179 113ms render+14 scripts:user-callback:98ms
+run 5 1440x900 dark warm cpu6% | 481 frames p95 16.7 max 16.8 | cloud onset y866 max 16.7 | first-scroll(y<400) max 16.8 | >40ms: none
+run 6 1440x900 dark cold cpu17% | 479 frames p95 16.8 max 33.3 | cloud onset y866 max 33.3 | first-scroll(y<400) max 16.8 | >40ms: none
+     LoAF t10224 62ms render+14 scripts:user-callback:46ms
+run 6 1440x900 dark warm cpu12% | 481 frames p95 16.7 max 16.8 | cloud onset y866 max 16.8 | first-scroll(y<400) max 16.8 | >40ms: none
+SUMMARY cold: cloud-onset >40ms in 4/6 [50, 50, 33.3, 50, 66.6, 33.3]; first-scroll(y<400) >40ms in 0/6 [16.8, 16.8, 16.8, 16.8, 16.8, 16.8]; p95 [16.7, 16.8, 16.8, 16.7, 16.8, 16.8]
+SUMMARY warm: cloud-onset >40ms in 0/6 [16.8, 16.7, 16.7, 16.7, 16.7, 16.8]; first-scroll(y<400) >40ms in 0/6 [16.8, 16.8, 16.8, 16.8, 16.8, 16.8]; p95 [16.7, 16.7, 16.8, 16.7, 16.7, 16.7]

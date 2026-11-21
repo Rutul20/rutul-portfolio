@@ -1,0 +1,18 @@
+run 1 1920x1080 light PREWARM cold cpu6% | 478 frames p95 16.7 max 66.7 | cloud onset y1039 max 16.7 | first-scroll(y<400) max 16.8 | >40ms: 66.7ms@y1689[other]
+     LoAF t12008 85ms render+16 scripts:user-callback:68ms
+run 1 1920x1080 light PREWARM warm cpu8% | 481 frames p95 16.7 max 16.8 | cloud onset y1039 max 16.7 | first-scroll(y<400) max 16.8 | >40ms: none
+   gpu: ANGLE (Intel, Intel(R) UHD Graphics (0x00009B41) Direct3D11 vs_5_0 ps_5_0, D3D11)
+run 2 1920x1080 light PREWARM cold cpu60% | 474 frames p95 16.8 max 99.9 | cloud onset y1039 max 16.8 | first-scroll(y<400) max 16.8 | >40ms: 99.9ms@y1689[other]
+     LoAF t12318 116ms render+14 scripts:user-callback:101ms
+run 2 1920x1080 light PREWARM warm cpu10% | 481 frames p95 16.7 max 16.8 | cloud onset y1039 max 16.7 | first-scroll(y<400) max 16.8 | >40ms: none
+run 3 1920x1080 light PREWARM cold cpu51% | 473 frames p95 16.7 max 116.6 | cloud onset y1039 max 16.7 | first-scroll(y<400) max 16.8 | >40ms: 116.6ms@y1689[other]
+     LoAF t12023 143ms render+14 scripts:user-callback:128ms
+run 3 1920x1080 light PREWARM warm cpu20% | 481 frames p95 16.7 max 16.8 | cloud onset y1039 max 16.7 | first-scroll(y<400) max 16.8 | >40ms: none
+run 4 1920x1080 light PREWARM cold cpu5% | 472 frames p95 16.8 max 83.4 | cloud onset y1039 max 33.4 | first-scroll(y<400) max 16.8 | >40ms: 83.4ms@y1689[other]
+     LoAF t11622 106ms render+13 scripts:user-callback:91ms
+run 4 1920x1080 light PREWARM warm cpu12% | 481 frames p95 16.8 max 16.8 | cloud onset y1039 max 16.7 | first-scroll(y<400) max 16.8 | >40ms: none
+run 5 1920x1080 light PREWARM cold cpu8% | 474 frames p95 16.7 max 116.6 | cloud onset y1039 max 16.8 | first-scroll(y<400) max 16.8 | >40ms: 116.6ms@y1689[other]
+     LoAF t11319 133ms render+14 scripts:user-callback:117ms
+run 5 1920x1080 light PREWARM warm cpu11% | 481 frames p95 16.7 max 16.8 | cloud onset y1039 max 16.8 | first-scroll(y<400) max 16.8 | >40ms: none
+SUMMARY cold: cloud-onset >40ms in 0/5 [16.7, 16.8, 16.7, 33.4, 16.8]; first-scroll(y<400) >40ms in 0/5 [16.8, 16.8, 16.8, 16.8, 16.8]; p95 [16.7, 16.8, 16.7, 16.8, 16.7]
+SUMMARY warm: cloud-onset >40ms in 0/5 [16.7, 16.7, 16.7, 16.7, 16.8]; first-scroll(y<400) >40ms in 0/5 [16.8, 16.8, 16.8, 16.8, 16.8]; p95 [16.7, 16.7, 16.7, 16.8, 16.7]

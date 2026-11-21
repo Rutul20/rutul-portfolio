@@ -1,0 +1,8 @@
+1920x1080 light full | theme=light stage=live card=blur(20px) saturate(0.7) brightness(1.05) | 711 frames, avg 59.3 fps, p50 16.7 ms, p95 16.8 ms, p99 16.8 ms, max 99.9 ms | >25ms: 4 >50ms: 1 | long tasks during: 0
+   >25ms at: 49.9ms@y1052(city), 33.4ms@y1705(city), 99.9ms@y2390(city), 33.3ms@y8374(education)
+1920x1080 light hero | theme=light stage=live card=blur(20px) saturate(0.7) brightness(1.05) | 479 frames, avg 59.9 fps, p50 16.7 ms, p95 16.8 ms, p99 16.8 ms, max 33.4 ms | >25ms: 1 >50ms: 0 | long tasks during: 0
+   >25ms at: 33.4ms@y1689(city)
+1920x1080 light full | theme=light stage=live card=blur(20px) saturate(0.7) brightness(1.05) | 695 frames, avg 57.9 fps, p50 16.7 ms, p95 16.8 ms, p99 33.4 ms, max 83.4 ms | >25ms: 16 >50ms: 4 | long tasks during: 3
+   >25ms at: 33.4ms@y1530(city), 33.3ms@y1705(city), 33.3ms@y1749(city), 33.3ms@y2608(about), 33.3ms@y3596(about), 66.6ms@y3696(experience), 33.4ms@y4718(experience), 83.4ms@y4774(epost), 33.4ms@y4910(epost), 33.3ms@y5911(client-work), 66.7ms@y5862(client-work), 66.6ms@y5930(client-work), 33.4ms@y6012(client-work), 33.4ms@y6559(client-work), 33.4ms@y6641(client-work), 33.3ms@y7019(workshop)
+1920x1080 light hero | theme=light stage=live card=blur(20px) saturate(0.7) brightness(1.05) | 480 frames, avg 60 fps, p50 16.7 ms, p95 16.7 ms, p99 16.8 ms, max 16.8 ms | >25ms: 0 >50ms: 0 | long tasks during: 0
+GPU: ANGLE (Intel, Intel(R) UHD Graphics (0x00009B41) Direct3D11 vs_5_0 ps_5_0, D3D11)

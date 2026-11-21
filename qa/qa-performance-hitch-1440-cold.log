@@ -1,0 +1,3 @@
+run 1 1440x900 light preWait 1500:317 frames, >25ms 3, >40ms: 50ms@y886(t4591), 50ms@y1425(t5291), 116.7ms@y1951(t6041)
+run 1 1440x900 light preWait 1500:314 frames, >25ms 4, >40ms: 49.9ms@y103(t3478), 66.7ms@y1425(t5211), 133.3ms@y1951(t5961)
+run 1 1440x900 light preWait 1500:310 frames, >25ms 5, >40ms: 133.3ms@y103(t3495), 49.9ms@y886(t4428), 50ms@y1425(t5128), 100ms@y1951(t5862)

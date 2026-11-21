@@ -1,0 +1,374 @@
+{
+ "run": 1,
+ "width": 1440,
+ "height": 900,
+ "theme": "dark",
+ "loadLinks": 11,
+ "shot": "qa/shots/qa-verify-performance-swap-1440x900-dark-r1.png",
+ "cold": {
+  "end": 1710,
+  "links": [
+   "custom[SHADER_TYPE+USE_INSTANCING+USE_INSTANCING_COLOR+HAS_NORMAL+FLIP_SIDED+PI+PI_HALF+RECIPROCAL_PI+EPSILON+SHADER_TYPE+USE_COLOR+FLIP_SIDED+DEPTH_PACKING+PI+PI_HALF+RECIPROCAL_PI+EPSILON]#b07308de@y1407",
+   "custom[SHADER_TYPE+USE_INSTANCING+HAS_NORMAL+FLIP_SIDED+PI+PI_HALF+RECIPROCAL_PI+EPSILON+SHADER_TYPE+FLIP_SIDED+DEPTH_PACKING+PI+PI_HALF+RECIPROCAL_PI+EPSILON]#9909536b@y1407",
+   "custom[SHADER_TYPE+HAS_NORMAL+FLIP_SIDED+PI+PI_HALF+RECIPROCAL_PI+EPSILON+SHADER_TYPE+FLIP_SIDED+DEPTH_PACKING+PI+PI_HALF+RECIPROCAL_PI+EPSILON]#e0660511@y1407",
+   "custom[SHADER_TYPE+USE_MAP+MAP_UV+HAS_NORMAL+DOUBLE_SIDED+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS+SHADER_TYPE+USE_MAP+DOUBLE_SIDED+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS+SUN_LIGHT_CASCADES]#9771b366@y1407"
+  ],
+  "slow": [
+   {
+    "dt": 66.7,
+    "y": 869,
+    "glMs": 0.4,
+    "top": [
+     "clearx2=0.1",
+     "uniformMatrix4fvx51=0.1",
+     "uniformMatrix3fvx18=0.1",
+     "drawArraysx19=0.1",
+     "clearColorx2=0.0",
+     "bindFramebufferx2=0.0"
+    ],
+    "cover": 0.003,
+    "fill": "0.000",
+    "intro": 0.508
+   },
+   {
+    "dt": 133.3,
+    "y": 1407,
+    "glMs": 110,
+    "top": [
+     "getProgramInfoLogx4=98.6",
+     "getShaderInfoLogx8=3.7",
+     "getProgramParameterx12=1.5",
+     "uniformMatrix4fvx666=1.3",
+     "drawElementsx358=1.2",
+     "shaderSourcex8=1.1"
+    ],
+    "cover": 1,
+    "fill": "1.000",
+    "intro": 0.823
+   },
+   {
+    "dt": 66.6,
+    "y": 1514,
+    "glMs": 2.2,
+    "top": [
+     "uniformMatrix4fvx653=1.4",
+     "drawElementsx358=0.2",
+     "bindVertexArrayx164=0.1",
+     "uniform1ix30=0.1",
+     "bindFramebufferx2=0.1",
+     "drawElementsInstancedx18=0.1"
+    ],
+    "cover": 0.804,
+    "fill": "0.520",
+    "intro": 0.885
+   }
+  ],
+  "medianDt": 16.7,
+  "dupOfLoad": 3
+ },
+ "warm": {
+  "end": 1710,
+  "links": [],
+  "slow": [
+   {
+    "dt": 66.7,
+    "y": 1453,
+    "glMs": 4.3,
+    "top": [
+     "uniformMatrix4fvx653=1.9",
+     "drawElementsx358=0.8",
+     "bindVertexArrayx164=0.7",
+     "uniformMatrix3fvx165=0.3",
+     "uniform3fx29=0.3",
+     "useProgramx18=0.1"
+    ],
+    "cover": 0.989,
+    "fill": "0.969",
+    "intro": 0.85
+   },
+   {
+    "dt": 99.9,
+    "y": 1482,
+    "glMs": 15.2,
+    "top": [
+     "uniformMatrix4fvx653=5.5",
+     "drawArraysx22=5.2",
+     "drawElementsx358=2.9",
+     "bindVertexArrayx164=0.8",
+     "uniformMatrix3fvx165=0.6",
+     "bindFramebufferx2=0.1"
+    ],
+    "cover": 0.926,
+    "fill": "0.794",
+    "intro": 0.867
+   }
+  ],
+  "medianDt": 16.7
+ },
+ "loadPrograms": [
+  "custom[SHADER_TYPE+HAS_NORMAL+FLIP_SIDED+PI+PI_HALF+RECIPROCAL_PI+EPSILON+SHADER_TYPE+FLIP_SIDED+DEPTH_PACKING+PI+PI_HALF+RECIPROCAL_PI+EPSILON]#e0660511",
+  "custom[SHADER_TYPE+USE_INSTANCING+USE_INSTANCING_COLOR+HAS_NORMAL+FLIP_SIDED+PI+PI_HALF+RECIPROCAL_PI+EPSILON+SHADER_TYPE+USE_COLOR+FLIP_SIDED+DEPTH_PACKING+PI+PI_HALF+RECIPROCAL_PI+EPSILON]#b07308de",
+  "custom[SHADER_TYPE+USE_INSTANCING+HAS_NORMAL+FLIP_SIDED+PI+PI_HALF+RECIPROCAL_PI+EPSILON+SHADER_TYPE+FLIP_SIDED+DEPTH_PACKING+PI+PI_HALF+RECIPROCAL_PI+EPSILON]#9909536b",
+  "custom[SHADER_TYPE+HAS_NORMAL+FLAT_SHADED+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS+SHADER_TYPE+FLAT_SHADED+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS+SUN_LIGHT_CASCADES]#21843c7f",
+  "custom[SHADER_TYPE+HAS_NORMAL+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS+SHADER_TYPE+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS+SUN_LIGHT_CASCADES]#afe8f4ad",
+  "custom[SHADER_TYPE+USE_INSTANCING+HAS_NORMAL+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS+SHADER_TYPE+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS+SUN_LIGHT_CASCADES]#54d9fa3b",
+  "custom[SHADER_TYPE+HAS_NORMAL+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS+SHADER_TYPE+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS]#62998bea",
+  "custom[SHADER_TYPE+USE_INSTANCING+USE_INSTANCING_COLOR+HAS_NORMAL+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS+SHADER_TYPE+USE_COLOR+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS+SUN_LIGHT_CASCADES]#9cde542a",
+  "custom[SHADER_TYPE+USE_INSTANCING+HAS_NORMAL+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS+SHADER_TYPE+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS]#f4a63762",
+  "custom[SHADER_TYPE+USE_INSTANCING+USE_INSTANCING_COLOR+HAS_NORMAL+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS+SHADER_TYPE+USE_COLOR+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS]#c281bdbf",
+  "custom[SHADER_TYPE+USE_MAP+USE_EMISSIVEMAP+MAP_UV+EMISSIVEMAP_UV+HAS_NORMAL+FLAT_SHADED+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS+SHADER_TYPE+USE_MAP+USE_EMISSIVEMAP+FLAT_SHADED+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS+SUN_LIGHT_CASCADES]#169508ca"
+ ],
+ "loaf": [
+  {
+   "t": 8473,
+   "dur": 76,
+   "y": 891,
+   "scripts": []
+  },
+  {
+   "t": 10974,
+   "dur": 151,
+   "y": 1443,
+   "scripts": [
+    "user-callback:FrameRequestCallback:136ms:39ne97v2whhoy.js:c4"
+   ]
+  },
+  {
+   "t": 11498,
+   "dur": 98,
+   "y": 1546,
+   "scripts": [
+    "user-callback:FrameRequestCallback:30ms:39ne97v2whhoy.js:c4"
+   ]
+  },
+  {
+   "t": 21811,
+   "dur": 68,
+   "y": 1482,
+   "scripts": [
+    "user-callback:FrameRequestCallback:30ms:39ne97v2whhoy.js:c4"
+   ]
+  },
+  {
+   "t": 21952,
+   "dur": 88,
+   "y": 1514,
+   "scripts": [
+    "user-callback:FrameRequestCallback:83ms:39ne97v2whhoy.js:c4"
+   ]
+  },
+  {
+   "t": 23442,
+   "dur": 77,
+   "y": 1710,
+   "scripts": [
+    "user-callback:TimerHandler:setTimeout:63ms::",
+    "user-callback:FrameRequestCallback:13ms:39ne97v2whhoy.js:c4"
+   ]
+  }
+ ],
+ "deletes": []
+}
+{
+ "run": 2,
+ "width": 1440,
+ "height": 900,
+ "theme": "dark",
+ "loadLinks": 11,
+ "shot": "qa/shots/qa-verify-performance-swap-1440x900-dark-r2.png",
+ "cold": {
+  "end": 1710,
+  "links": [
+   "custom[SHADER_TYPE+USE_INSTANCING+USE_INSTANCING_COLOR+HAS_NORMAL+FLIP_SIDED+PI+PI_HALF+RECIPROCAL_PI+EPSILON+SHADER_TYPE+USE_COLOR+FLIP_SIDED+DEPTH_PACKING+PI+PI_HALF+RECIPROCAL_PI+EPSILON]#b07308de@y1407",
+   "custom[SHADER_TYPE+USE_INSTANCING+HAS_NORMAL+FLIP_SIDED+PI+PI_HALF+RECIPROCAL_PI+EPSILON+SHADER_TYPE+FLIP_SIDED+DEPTH_PACKING+PI+PI_HALF+RECIPROCAL_PI+EPSILON]#9909536b@y1407",
+   "custom[SHADER_TYPE+HAS_NORMAL+FLIP_SIDED+PI+PI_HALF+RECIPROCAL_PI+EPSILON+SHADER_TYPE+FLIP_SIDED+DEPTH_PACKING+PI+PI_HALF+RECIPROCAL_PI+EPSILON]#e0660511@y1407",
+   "custom[SHADER_TYPE+USE_MAP+MAP_UV+HAS_NORMAL+DOUBLE_SIDED+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS+SHADER_TYPE+USE_MAP+DOUBLE_SIDED+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS+SUN_LIGHT_CASCADES]#9771b366@y1407"
+  ],
+  "slow": [
+   {
+    "dt": 149.9,
+    "y": 869,
+    "glMs": 0.7,
+    "top": [
+     "uniformMatrix4fvx51=0.2",
+     "useProgramx4=0.2",
+     "bindVertexArrayx5=0.1",
+     "uniformMatrix3fvx18=0.1",
+     "drawElementsx3=0.1",
+     "clearColorx2=0.0"
+    ],
+    "cover": 0.003,
+    "fill": "0.000",
+    "intro": 0.508
+   },
+   {
+    "dt": 50,
+    "y": 1229,
+    "glMs": 0,
+    "top": [
+     "clearColorx2=0.0",
+     "bindFramebufferx2=0.0",
+     "viewportx2=0.0",
+     "scissorx2=0.0",
+     "clearx2=0.0",
+     "useProgramx4=0.0"
+    ],
+    "cover": 0.877,
+    "fill": "0.675",
+    "intro": 0.719
+   },
+   {
+    "dt": 233.3,
+    "y": 1407,
+    "glMs": 182.9,
+    "top": [
+     "getProgramInfoLogx4=164.1",
+     "shaderSourcex8=3.9",
+     "getShaderInfoLogx8=2.9",
+     "uniformMatrix4fvx666=2.4",
+     "drawElementsx358=2.1",
+     "getProgramParameterx12=2.1"
+    ],
+    "cover": 1,
+    "fill": "1.000",
+    "intro": 0.823
+   }
+  ],
+  "medianDt": 16.7,
+  "dupOfLoad": 3
+ },
+ "warm": {
+  "end": 1710,
+  "links": [],
+  "slow": [
+   {
+    "dt": 50,
+    "y": 342,
+    "glMs": 0.8,
+    "top": [
+     "uniformMatrix4fvx69=0.3",
+     "uniformMatrix3fvx27=0.2",
+     "clearx2=0.1",
+     "useProgramx4=0.1",
+     "clearColorx2=0.1",
+     "bindFramebufferx2=0.0"
+    ],
+    "cover": 0,
+    "fill": "0.000",
+    "intro": 0.2
+   },
+   {
+    "dt": 50,
+    "y": 356,
+    "glMs": 0.4,
+    "top": [
+     "uniformMatrix4fvx69=0.2",
+     "clearColorx2=0.1",
+     "drawArraysx28=0.1",
+     "bindFramebufferx2=0.0",
+     "viewportx2=0.0",
+     "scissorx2=0.0"
+    ],
+    "cover": 0,
+    "fill": "0.000",
+    "intro": 0.208
+   },
+   {
+    "dt": 50,
+    "y": 370,
+    "glMs": 0.3,
+    "top": [
+     "drawArraysx28=0.1",
+     "clearx2=0.1",
+     "uniformMatrix4fvx69=0.1",
+     "clearColorx2=0.0",
+     "bindFramebufferx2=0.0",
+     "viewportx2=0.0"
+    ],
+    "cover": 0,
+    "fill": "0.000",
+    "intro": 0.216
+   }
+  ],
+  "medianDt": 16.7
+ },
+ "loadPrograms": [
+  "custom[SHADER_TYPE+HAS_NORMAL+FLIP_SIDED+PI+PI_HALF+RECIPROCAL_PI+EPSILON+SHADER_TYPE+FLIP_SIDED+DEPTH_PACKING+PI+PI_HALF+RECIPROCAL_PI+EPSILON]#e0660511",
+  "custom[SHADER_TYPE+USE_INSTANCING+USE_INSTANCING_COLOR+HAS_NORMAL+FLIP_SIDED+PI+PI_HALF+RECIPROCAL_PI+EPSILON+SHADER_TYPE+USE_COLOR+FLIP_SIDED+DEPTH_PACKING+PI+PI_HALF+RECIPROCAL_PI+EPSILON]#b07308de",
+  "custom[SHADER_TYPE+USE_INSTANCING+HAS_NORMAL+FLIP_SIDED+PI+PI_HALF+RECIPROCAL_PI+EPSILON+SHADER_TYPE+FLIP_SIDED+DEPTH_PACKING+PI+PI_HALF+RECIPROCAL_PI+EPSILON]#9909536b",
+  "custom[SHADER_TYPE+HAS_NORMAL+FLAT_SHADED+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS+SHADER_TYPE+FLAT_SHADED+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS+SUN_LIGHT_CASCADES]#21843c7f",
+  "custom[SHADER_TYPE+HAS_NORMAL+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS+SHADER_TYPE+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS+SUN_LIGHT_CASCADES]#afe8f4ad",
+  "custom[SHADER_TYPE+USE_INSTANCING+HAS_NORMAL+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS+SHADER_TYPE+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS+SUN_LIGHT_CASCADES]#54d9fa3b",
+  "custom[SHADER_TYPE+HAS_NORMAL+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS+SHADER_TYPE+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS]#62998bea",
+  "custom[SHADER_TYPE+USE_INSTANCING+USE_INSTANCING_COLOR+HAS_NORMAL+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS+SHADER_TYPE+USE_COLOR+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS+SUN_LIGHT_CASCADES]#9cde542a",
+  "custom[SHADER_TYPE+USE_INSTANCING+HAS_NORMAL+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS+SHADER_TYPE+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS]#f4a63762",
+  "custom[SHADER_TYPE+USE_INSTANCING+USE_INSTANCING_COLOR+HAS_NORMAL+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS+SHADER_TYPE+USE_COLOR+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS]#c281bdbf",
+  "custom[SHADER_TYPE+USE_MAP+USE_EMISSIVEMAP+MAP_UV+EMISSIVEMAP_UV+HAS_NORMAL+FLAT_SHADED+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS+SHADER_TYPE+USE_MAP+USE_EMISSIVEMAP+FLAT_SHADED+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS+SUN_LIGHT_CASCADES]#169508ca"
+ ],
+ "loaf": [
+  {
+   "t": 9196,
+   "dur": 160,
+   "y": 908,
+   "scripts": []
+  },
+  {
+   "t": 10880,
+   "dur": 52,
+   "y": 1250,
+   "scripts": []
+  },
+  {
+   "t": 11032,
+   "dur": 52,
+   "y": 1275,
+   "scripts": []
+  },
+  {
+   "t": 11696,
+   "dur": 253,
+   "y": 1457,
+   "scripts": [
+    "user-callback:FrameRequestCallback:233ms:39ne97v2whhoy.js:c4"
+   ]
+  },
+  {
+   "t": 13271,
+   "dur": 58,
+   "y": 1710,
+   "scripts": [
+    "user-callback:FrameRequestCallback:18ms:39ne97v2whhoy.js:c4"
+   ]
+  },
+  {
+   "t": 13559,
+   "dur": 61,
+   "y": 1710,
+   "scripts": [
+    "user-callback:TimerHandler:setTimeout:49ms::",
+    "user-callback:FrameRequestCallback:11ms:39ne97v2whhoy.js:c4"
+   ]
+  },
+  {
+   "t": 17450,
+   "dur": 61,
+   "y": 370,
+   "scripts": []
+  },
+  {
+   "t": 17520,
+   "dur": 52,
+   "y": 385,
+   "scripts": []
+  },
+  {
+   "t": 17583,
+   "dur": 54,
+   "y": 392,
+   "scripts": [
+    "user-callback:FrameRequestCallback:5ms:39ne97v2whhoy.js:c4"
+   ]
+  }
+ ],
+ "deletes": []
+}

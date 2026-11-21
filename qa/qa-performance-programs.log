@@ -1,0 +1,7 @@
+1920x1080 light hero dive 0->2052px / 8 s (cold browser)
+before scrolling: 11 linkProgram, 22 compileShader, blocking getters >2ms: 0 (0 ms)
+during the dive: 4 linkProgram, 8 compileShader
+   at scrollY 1689 (intro 0.82): 4 links, 8 shader compiles, 0 ms blocked in get*Parameter
+programs first built during the dive: MeshDepthMaterial[USE_INSTANCING+USE_INSTANCING_COLOR+USE_SHADOWMAP]@y1689, MeshDepthMaterial[USE_INSTANCING+USE_SHADOWMAP]@y1689, MeshDepthMaterial[USE_SHADOWMAP]@y1689, MeshLambertMaterial[USE_SHADOWMAP+USE_MAP+DOUBLE_SIDED]@y1689
+programs built at load (warm-up): MeshDepthMaterial[USE_SHADOWMAP], MeshDepthMaterial[USE_INSTANCING+USE_INSTANCING_COLOR+USE_SHADOWMAP], MeshDepthMaterial[USE_INSTANCING+USE_SHADOWMAP], MeshLambertMaterial[USE_SHADOWMAP+FLAT_SHADED], MeshLambertMaterial[USE_SHADOWMAP], MeshLambertMaterial[USE_INSTANCING+USE_SHADOWMAP], MeshBasicMaterial[USE_SHADOWMAP], MeshLambertMaterial[USE_INSTANCING+USE_INSTANCING_COLOR+USE_SHADOWMAP], MeshBasicMaterial[USE_INSTANCING+USE_SHADOWMAP], MeshBasicMaterial[USE_INSTANCING+USE_INSTANCING_COLOR+USE_SHADOWMAP], MeshLambertMaterial[USE_SHADOWMAP+USE_MAP+FLAT_SHADED]
+frames >40ms: 66.6ms@y1043, 66.7ms@y1689

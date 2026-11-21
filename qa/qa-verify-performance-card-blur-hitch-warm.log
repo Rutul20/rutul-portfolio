@@ -1,0 +1,7 @@
+  prep (context A, cold): entryY=2368 >40ms anywhere: 166.7@y2368 | AT CARD ENTRY: 166.7ms
+prep=site run1 measured: entryY=2368 >40ms anywhere: none | AT CARD ENTRY: none
+  prep (context A, cold): entryY=2368 >40ms anywhere: 133.3@y2368 | AT CARD ENTRY: 133.3ms
+prep=site run2 measured: entryY=2368 >40ms anywhere: none | AT CARD ENTRY: none
+prep=blurpage run1 measured: entryY=2368 >40ms anywhere: 100@y2368 | AT CARD ENTRY: 100ms
+prep=blurpage run2 measured: entryY=2368 >40ms anywhere: 99.9@y2368 | AT CARD ENTRY: 99.9ms
+prep=blurpage run3 measured: entryY=2368 >40ms anywhere: 216.7@y2368 | AT CARD ENTRY: 216.7ms

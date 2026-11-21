@@ -1,0 +1,8 @@
+[blur, no box-shadow] wheel blur 1920x1080 light run1: entryY=2368 frames=92 scrolled 2068->2668 >40ms: 250@y2368, 50@y2618 | AT CARD ENTRY (+-80px): 250ms
+[blur, no box-shadow] wheel blur 1920x1080 light run1: entryY=2368 frames=93 scrolled 2068->2668 >40ms: 166.7@y2368, 50@y2618 | AT CARD ENTRY (+-80px): 166.7ms
+[blur(20px) only, no saturate/brightness] wheel blur 1920x1080 light run1: entryY=2368 frames=95 scrolled 2068->2668 >40ms: 116.7@y2368, 50@y2618, 50@y2618 | AT CARD ENTRY (+-80px): 116.7ms
+[blur(20px) only, no saturate/brightness] wheel blur 1920x1080 light run1: entryY=2368 frames=91 scrolled 2068->2668 >40ms: 116.7@y2368 | AT CARD ENTRY (+-80px): 116.7ms
+[no blur, own composited layer via will-change] wheel noblur 1920x1080 light run1: entryY=2368 frames=92 scrolled 2068->2668 >40ms: 83.3@y2618 | AT CARD ENTRY (+-80px): none
+[no blur, own composited layer via will-change] wheel noblur 1920x1080 light run1: entryY=2368 frames=88 scrolled 2068->2668 >40ms: none | AT CARD ENTRY (+-80px): none
+[blur(4px) only] wheel blur 1920x1080 light run1: entryY=2368 frames=93 scrolled 2068->2668 >40ms: 133.4@y2368 | AT CARD ENTRY (+-80px): 133.4ms
+[blur(4px) only] wheel blur 1920x1080 light run1: entryY=2368 frames=91 scrolled 2068->2668 >40ms: 166.5@y2368 | AT CARD ENTRY (+-80px): 166.5ms

@@ -1,0 +1,11 @@
+run 1 1920x1080 light preWait 10000:243 frames, >25ms 7, >40ms: 116.6ms@y1069(t14420), 166.7ms@y1717(t15186), 266.6ms@y2395(t16036), 49.9ms@y2666(t16120)
+   LoAF t14314 120ms (blocking 0, render starts +118ms, style+layout 0ms) scripts: -
+   LoAF t15011 177ms (blocking 108, render starts +19ms, style+layout 1ms) scripts: FrameRequestCallback:155ms 39ne97v2whhoy.js c4
+   LoAF t15780 274ms (blocking 0, render starts +262ms, style+layout 2ms) scripts: FrameRequestCallback:7ms 39ne97v2whhoy.js c4
+   LoAF t16055 70ms (blocking 2, render starts +18ms, style+layout 40ms) scripts: FrameRequestCallback:10ms 39ne97v2whhoy.js c4
+run 2 1920x1080 light preWait 10000:277 frames, >25ms 1, >40ms: none
+run 3 1920x1080 light preWait 10000:266 frames, >25ms 6, >40ms: 133.3ms@y3705(t15380)
+   LoAF t13018 60ms (blocking 0, render starts +13ms, style+layout 0ms) scripts: FrameRequestCallback:46ms 39ne97v2whhoy.js c4
+   LoAF t15272 92ms (blocking 25, render starts +17ms, style+layout 56ms) scripts: FrameRequestCallback:17ms 39ne97v2whhoy.js c4
+run 4 1920x1080 light preWait 10000:276 frames, >25ms 2, >40ms: none
+   LoAF t14185 61ms (blocking 0, render starts +15ms, style+layout 0ms) scripts: FrameRequestCallback:45ms 39ne97v2whhoy.js c4

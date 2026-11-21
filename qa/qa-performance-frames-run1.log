@@ -1,0 +1,14 @@
+1920x1080 light full | theme=light stage=live card=blur(20px) saturate(0.7) brightness(1.05) | 705 frames, avg 58.8 fps, p50 16.7 ms, p95 16.8 ms, p99 16.8 ms, max 100.1 ms | >25ms: 7 >50ms: 3 | long tasks during: 1
+   >25ms at: 66.7ms@y1052(city), 66.7ms@y1705(city), 100.1ms@y2390(city), 33.3ms@y6026(client-work), 33.3ms@y6149(client-work), 33.3ms@y6532(client-work), 33.4ms@y8992(education)
+1920x1080 light hero | theme=light stage=live card=blur(20px) saturate(0.7) brightness(1.05) | 479 frames, avg 59.9 fps, p50 16.7 ms, p95 16.8 ms, p99 16.8 ms, max 33.3 ms | >25ms: 1 >50ms: 0 | long tasks during: 0
+   >25ms at: 33.3ms@y282(city)
+1920x1080 dark  full | theme=dark stage=live card=blur(22px) saturate(0.5) brightness(0.6) | 719 frames, avg 59.9 fps, p50 16.7 ms, p95 16.7 ms, p99 16.8 ms, max 33.4 ms | >25ms: 1 >50ms: 0 | long tasks during: 0
+   >25ms at: 33.4ms@y4774(epost)
+1920x1080 dark  hero | theme=dark stage=live card=blur(22px) saturate(0.5) brightness(0.6) | 480 frames, avg 60 fps, p50 16.7 ms, p95 16.7 ms, p99 16.8 ms, max 16.8 ms | >25ms: 0 >50ms: 0 | long tasks during: 0
+1440x900 light full | theme=light stage=live card=blur(20px) saturate(0.7) brightness(1.05) | 713 frames, avg 59.4 fps, p50 16.7 ms, p95 16.8 ms, p99 16.8 ms, max 33.4 ms | >25ms: 7 >50ms: 0 | long tasks during: 0
+   >25ms at: 33.3ms@y3224(experience), 33.4ms@y4125(epost), 33.3ms@y4175(epost), 33.2ms@y5435(client-work), 33.3ms@y5530(client-work), 33.3ms@y5685(client-work), 33.2ms@y5744(client-work)
+1440x900 light hero | theme=light stage=live card=blur(20px) saturate(0.7) brightness(1.05) | 480 frames, avg 60 fps, p50 16.7 ms, p95 16.8 ms, p99 16.8 ms, max 16.8 ms | >25ms: 0 >50ms: 0 | long tasks during: 0
+1440x900 dark  full | theme=dark stage=live card=blur(22px) saturate(0.5) brightness(0.6) | 719 frames, avg 59.9 fps, p50 16.7 ms, p95 16.8 ms, p99 16.8 ms, max 33.2 ms | >25ms: 1 >50ms: 0 | long tasks during: 0
+   >25ms at: 33.2ms@y1418(city)
+1440x900 dark  hero | theme=dark stage=live card=blur(22px) saturate(0.5) brightness(0.6) | 480 frames, avg 60 fps, p50 16.7 ms, p95 16.7 ms, p99 16.8 ms, max 16.8 ms | >25ms: 0 >50ms: 0 | long tasks during: 0
+GPU: ANGLE (Intel, Intel(R) UHD Graphics (0x00009B41) Direct3D11 vs_5_0 ps_5_0, D3D11)

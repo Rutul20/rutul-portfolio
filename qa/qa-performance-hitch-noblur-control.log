@@ -1,0 +1,6 @@
+NOBLUR run 1 1920x1080 light preWait 1500:276 frames, >25ms 2, >40ms: none
+BLUR   run 1 1920x1080 light preWait 1500:273 frames, >25ms 2, >40ms: 83.3ms@y2395(t5697)
+NOBLUR run 1 1920x1080 light preWait 1500:245 frames, >25ms 4, >40ms: 50ms@y1702(t5209), 500ms@y2184(t6192)
+BLUR   run 1 1920x1080 light preWait 1500:274 frames, >25ms 2, >40ms: 66.7ms@y2395(t5690)
+NOBLUR run 1 1920x1080 light preWait 1500:275 frames, >25ms 2, >40ms: 50ms@y1702(t5654)
+BLUR   run 1 1920x1080 light preWait 1500:273 frames, >25ms 2, >40ms: 83.3ms@y2395(t6101)

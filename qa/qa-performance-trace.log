@@ -1,0 +1,7 @@
+1920x1080 light: 249 frames, >25ms 5, >40ms: 333.2ms@y151, 66.7ms@y1702, 100ms@y2395
+  [renderer main] +1871ms RunTask 72ms -> ThreadControllerImpl::RunTask:72, ProxyMain::BeginMainFrame:72, WebFrameWidgetImpl::BeginMainFrame:71, Blink.Animate.UpdateTime:71, PageAnimator::serviceScriptedAnimations:71, FrameRequestCallbackCollection::ExecuteFrameCallbacks:71, FireAnimationFrame:70, AsyncTask Run:70
+  [gpu main] +141ms RunTask 358ms -> ThreadControllerImpl::RunTask:358, Scheduler::RunTask:358, GpuChannel::ExecuteDeferredRequest:358, GPUTask:358, WebGL:358, CommandBuffer::Flush:358, CommandBufferStub::OnAsyncFlush:358, CommandBufferService:PutChanged:358
+  [gpu main] +1142ms RunTask 45ms -> ThreadControllerImpl::RunTask:45, Scheduler::RunTask:45, GpuChannel::ExecuteDeferredRequest:45, GPUTask:45, RendererRasterWorker:45, CommandBuffer::Flush:45, CommandBufferStub::OnAsyncFlush:45, CommandBufferService:PutChanged:45
+  [gpu main] +1892ms RunTask 48ms -> ThreadControllerImpl::RunTask:48, Scheduler::RunTask:48, GpuChannel::ExecuteDeferredRequest:48, GPUTask:48, WebGL:48, CommandBuffer::Flush:48, CommandBufferStub::OnAsyncFlush:48, CommandBufferService:PutChanged:48
+  [gpu main] +2621ms RunTask 109ms -> ThreadControllerImpl::RunTask:109, Scheduler::RunTask:109, GpuChannel::ExecuteDeferredRequest:109, GPUTask:109, RendererRasterWorker:109, CommandBuffer::Flush:109, CommandBufferStub::OnAsyncFlush:109, CommandBufferService:PutChanged:109
+trace: qa/qa-performance-trace-1920x1080-light.json

@@ -1,0 +1,10 @@
+run 1 1440x900 dark preWait 1500:304 frames, >25ms 6, >40ms: 100ms@y886(t5155), 100ms@y1425(t5855), 183.3ms@y1951(t6622)
+   LoAF t5059 100ms (blocking 0, render starts +97ms, style+layout 0ms) scripts: -
+   LoAF t5743 117ms (blocking 53, render starts +14ms, style+layout 0ms) scripts: FrameRequestCallback:102ms 39ne97v2whhoy.js c4
+   LoAF t6450 192ms (blocking 0, render starts +183ms, style+layout 0ms) scripts: FrameRequestCallback:9ms 39ne97v2whhoy.js c4
+run 2 1440x900 dark preWait 1500:317 frames, >25ms 8, >40ms: 66.6ms@y1425(t4947)
+   LoAF t4868 86ms (blocking 22, render starts +14ms, style+layout 0ms) scripts: FrameRequestCallback:70ms 39ne97v2whhoy.js c4
+run 3 1440x900 dark preWait 1500:325 frames, >25ms 2, >40ms: none
+   LoAF t8629 52ms (blocking 0, render starts +10ms, style+layout 34ms) scripts: FrameRequestCallback:6ms 39ne97v2whhoy.js c4
+run 4 1440x900 dark preWait 1500:322 frames, >25ms 5, >40ms: none
+   LoAF t5114 58ms (blocking 0, render starts +14ms, style+layout 0ms) scripts: FrameRequestCallback:43ms 39ne97v2whhoy.js c4

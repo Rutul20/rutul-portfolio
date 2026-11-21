@@ -1,0 +1,15 @@
+run 1 1920x1080 light: 260 frames, >25ms 6, >40ms: 50ms@y1054(t4512), 66.7ms@y1702(t5245), 183.3ms@y2395(t6129)
+   LoAF t4465 59ms (blocking 0, render starts +57ms, style+layout 0ms) scripts: -
+   LoAF t5166 94ms (blocking 29, render starts +15ms, style+layout 0ms) scripts: FrameRequestCallback:78ms 39ne97v2whhoy.js c4
+   LoAF t5954 193ms (blocking 0, render starts +189ms, style+layout 0ms) scripts: -
+run 2 1920x1080 light: 272 frames, >25ms 4, >40ms: 66.6ms@y1702(t5284)
+   LoAF t5205 85ms (blocking 21, render starts +14ms, style+layout 0ms) scripts: FrameRequestCallback:69ms 39ne97v2whhoy.js c4
+run 3 1920x1080 light: 253 frames, >25ms 20, >40ms: 50ms@y1702(t5271), 50ms@y3238(t6971), 50ms@y3690(t7471), 66.6ms@y3871(t7688)
+   LoAF t5208 65ms (blocking 2, render starts +13ms, style+layout 0ms) scripts: FrameRequestCallback:51ms 39ne97v2whhoy.js c4
+   LoAF t6934 61ms (blocking 0, render starts +52ms, style+layout 0ms) scripts: FrameRequestCallback:8ms 39ne97v2whhoy.js c4
+   LoAF t7550 52ms (blocking 0, render starts +35ms, style+layout 1ms) scripts: FrameRequestCallback:15ms 39ne97v2whhoy.js c4
+   LoAF t7644 64ms (blocking 0, render starts +53ms, style+layout 0ms) scripts: FrameRequestCallback:9ms 39ne97v2whhoy.js c4
+run 4 1920x1080 light: 274 frames, >25ms 3, >40ms: 50ms@y1702(t5232)
+   LoAF t5169 67ms (blocking 2, render starts +15ms, style+layout 0ms) scripts: FrameRequestCallback:51ms 39ne97v2whhoy.js c4
+run 5 1920x1080 light: 274 frames, >25ms 3, >40ms: 50ms@y1702(t4959)
+   LoAF t4897 68ms (blocking 6, render starts +13ms, style+layout 0ms) scripts: FrameRequestCallback:54ms 39ne97v2whhoy.js c4

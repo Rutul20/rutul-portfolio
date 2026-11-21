@@ -1,0 +1,12 @@
+wheel blur 1920x1080 light run1: entryY=2368 frames=93 scrolled 2068->2668 >40ms: 116.6@y2368 | AT CARD ENTRY (+-80px): 116.6ms
+wheel noblur 1920x1080 light run1: entryY=2368 frames=94 scrolled 2068->2668 >40ms: 50@y2618 | AT CARD ENTRY (+-80px): none
+wheel blur 1920x1080 light run1: entryY=2368 frames=93 scrolled 2068->2668 >40ms: 116.7@y2368 | AT CARD ENTRY (+-80px): 116.7ms
+wheel noblur 1920x1080 light run1: entryY=2368 frames=91 scrolled 2068->2668 >40ms: none | AT CARD ENTRY (+-80px): none
+wheel blur 1920x1080 light run1: entryY=2368 frames=94 scrolled 2068->2668 >40ms: 133.3@y2368 | AT CARD ENTRY (+-80px): 133.3ms
+wheel noblur 1920x1080 light run1: entryY=2368 frames=91 scrolled 2068->2668 >40ms: none | AT CARD ENTRY (+-80px): none
+wheel blur 1920x1080 dark run1: entryY=2368 frames=94 scrolled 2068->2668 >40ms: 216.7@y2368, 50@y2618 | AT CARD ENTRY (+-80px): 216.7ms
+wheel noblur 1920x1080 dark run1: entryY=2368 frames=90 scrolled 2068->2668 >40ms: 50@y2618 | AT CARD ENTRY (+-80px): none
+wheel blur 1920x1080 dark run1: entryY=2368 frames=93 scrolled 2068->2668 >40ms: 116.7@y2368 | AT CARD ENTRY (+-80px): 116.7ms
+wheel noblur 1920x1080 dark run1: entryY=2368 frames=89 scrolled 2068->2668 >40ms: none | AT CARD ENTRY (+-80px): none
+wheel blur 1440x900 light run1: entryY=1936 frames=93 scrolled 1636->2236 >40ms: 100@y1936 | AT CARD ENTRY (+-80px): 100ms
+wheel noblur 1440x900 light run1: entryY=1936 frames=93 scrolled 1636->2236 >40ms: none | AT CARD ENTRY (+-80px): none

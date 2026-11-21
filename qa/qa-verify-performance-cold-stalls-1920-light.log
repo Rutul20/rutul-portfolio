@@ -1,0 +1,37 @@
+run 1 1920x1080 light cold cpu8% | 476 frames p95 16.8 max 66.6 | cloud onset y1039 max 66.6 | first-25 max 16.8 | >40ms: 66.6ms@y1043[CLOUD-ONSET], 50ms@y1689[other]
+     LoAF t7884 77ms render+75 scripts:-
+     LoAF t10384 77ms render+15 scripts:user-callback:61ms
+run 1 1920x1080 light warm cpu9% | 481 frames p95 16.7 max 16.8 | cloud onset y1039 max 16.7 | first-25 max 16.7 | >40ms: none
+   gpu: ANGLE (Intel, Intel(R) UHD Graphics (0x00009B41) Direct3D11 vs_5_0 ps_5_0, D3D11)
+run 2 1920x1080 light cold cpu34% | 478 frames p95 16.8 max 50 | cloud onset y1039 max 33.4 | first-25 max 16.8 | >40ms: 50ms@y1689[other]
+     LoAF t10547 72ms render+13 scripts:user-callback:58ms
+run 2 1920x1080 light warm cpu93% | 481 frames p95 16.7 max 16.8 | cloud onset y1039 max 16.7 | first-25 max 16.7 | >40ms: none
+run 3 1920x1080 light cold cpu37% | 473 frames p95 16.7 max 83.4 | cloud onset y1039 max 83.3 | first-25 max 16.8 | >40ms: 83.3ms@y1043[CLOUD-ONSET], 83.4ms@y1689[other]
+     LoAF t8320 87ms render+86 scripts:-
+     LoAF t10817 100ms render+16 scripts:user-callback:83ms
+run 3 1920x1080 light warm cpu10% | 481 frames p95 16.7 max 16.8 | cloud onset y1039 max 16.7 | first-25 max 16.7 | >40ms: none
+run 4 1920x1080 light cold cpu7% | 464 frames p95 16.8 max 100 | cloud onset y1039 max 33.4 | first-25 max 16.8 | >40ms: 100ms@y1689[other], 83.3ms@y1808[other]
+     LoAF t10678 124ms render+12 scripts:user-callback:111ms
+     LoAF t11169 108ms render+87 scripts:user-callback:16ms
+run 4 1920x1080 light warm cpu41% | 477 frames p95 16.8 max 33.3 | cloud onset y1039 max 16.8 | first-25 max 16.8 | >40ms: none
+run 5 1920x1080 light cold cpu36% | 462 frames p95 16.8 max 116.7 | cloud onset y1039 max 116.7 | first-25 max 16.8 | >40ms: 116.7ms@y1043[CLOUD-ONSET], 116.6ms@y1689[other], 83.3ms@y1911[other], 50ms@y2039[other]
+     LoAF t9490 125ms render+123 scripts:-
+     LoAF t11990 134ms render+12 scripts:user-callback:121ms
+     LoAF t12878 97ms render+84 scripts:user-callback:11ms
+run 5 1920x1080 light warm cpu12% | 453 frames p95 16.8 max 150 | cloud onset y1039 max 16.7 | first-25 max 16.8 | >40ms: 66.7ms@y1680[other], 50ms@y1718[other], 150ms@y1830[other], 49.9ms@y1872[other], 83.4ms@y1919[other]
+     LoAF t22616 59ms render+56 scripts:-
+     LoAF t23193 147ms render+2 scripts:user-callback:123ms|user-callback:20ms
+     LoAF t23546 63ms render+0 scripts:user-callback:50ms|user-callback:8ms
+run 6 1920x1080 light cold cpu94% | 447 frames p95 16.8 max 183.4 | cloud onset y1039 max 99.9 | first-25 max 16.8 | >40ms: 99.9ms@y1047[CLOUD-ONSET], 183.4ms@y1689[other], 50ms@y1894[other], 50ms@y1936[other], 50ms@y1971[other], 50.1ms@y2018[other]
+     LoAF t9529 110ms render+108 scripts:-
+     LoAF t11347 54ms render+16 scripts:-
+     LoAF t12018 208ms render+10 scripts:user-callback:196ms
+     LoAF t12838 51ms render+42 scripts:user-callback:6ms
+     LoAF t13005 50ms render+40 scripts:user-callback:8ms
+     LoAF t13306 68ms render+28 scripts:user-callback:36ms
+run 6 1920x1080 light warm cpu100% | 463 frames p95 16.8 max 99.9 | cloud onset y1039 max 16.7 | first-25 max 16.8 | >40ms: 99.9ms@y133[other], 66.7ms@y607[other], 66.7ms@y671[other], 50ms@y1868[other]
+     LoAF t17180 112ms render+100 scripts:user-callback:8ms
+     LoAF t19033 91ms render+83 scripts:user-callback:6ms
+     LoAF t19287 70ms render+65 scripts:-
+SUMMARY cold: cloud-onset >40ms in 4/6 [66.6, 33.4, 83.3, 33.4, 116.7, 99.9]; first-25 >40ms in 0/6 [16.8, 16.8, 16.8, 16.8, 16.8, 16.8]; p95 [16.8, 16.8, 16.7, 16.8, 16.8, 16.8]
+SUMMARY warm: cloud-onset >40ms in 0/6 [16.7, 16.7, 16.7, 16.8, 16.7, 16.7]; first-25 >40ms in 0/6 [16.7, 16.7, 16.7, 16.8, 16.8, 16.8]; p95 [16.7, 16.7, 16.7, 16.8, 16.8, 16.8]

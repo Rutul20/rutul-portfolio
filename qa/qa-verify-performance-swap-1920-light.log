@@ -1,0 +1,118 @@
+{
+ "run": 1,
+ "width": 1920,
+ "height": 1080,
+ "theme": "light",
+ "loadLinks": 11,
+ "shot": "qa/shots/qa-verify-performance-swap-1920x1080-light-r1.png",
+ "cold": {
+  "end": 2052,
+  "links": [
+   "custom[SHADER_TYPE+USE_INSTANCING+USE_INSTANCING_COLOR+HAS_NORMAL+FLIP_SIDED+PI+PI_HALF+RECIPROCAL_PI+EPSILON+SHADER_TYPE+USE_COLOR+FLIP_SIDED+DEPTH_PACKING+PI+PI_HALF+RECIPROCAL_PI+EPSILON]#b07308de@y1689",
+   "custom[SHADER_TYPE+USE_INSTANCING+HAS_NORMAL+FLIP_SIDED+PI+PI_HALF+RECIPROCAL_PI+EPSILON+SHADER_TYPE+FLIP_SIDED+DEPTH_PACKING+PI+PI_HALF+RECIPROCAL_PI+EPSILON]#9909536b@y1689",
+   "custom[SHADER_TYPE+HAS_NORMAL+FLIP_SIDED+PI+PI_HALF+RECIPROCAL_PI+EPSILON+SHADER_TYPE+FLIP_SIDED+DEPTH_PACKING+PI+PI_HALF+RECIPROCAL_PI+EPSILON]#e0660511@y1689",
+   "custom[SHADER_TYPE+USE_MAP+MAP_UV+HAS_NORMAL+DOUBLE_SIDED+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS+SHADER_TYPE+USE_MAP+DOUBLE_SIDED+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS+SUN_LIGHT_CASCADES]#9771b366@y1689"
+  ],
+  "slow": [
+   {
+    "dt": 183.2,
+    "y": 1689,
+    "glMs": 138.8,
+    "top": [
+     "getProgramInfoLogx4=117.7",
+     "shaderSourcex8=6.3",
+     "uniformMatrix4fvx666=4.1",
+     "getShaderInfoLogx8=2.9",
+     "getProgramParameterx12=1.9",
+     "createVertexArrayx12=1.5"
+    ],
+    "cover": 1,
+    "fill": "1.000",
+    "intro": 0.823
+   }
+  ],
+  "medianDt": 16.7,
+  "dupOfLoad": 3
+ },
+ "warm": {
+  "end": 2052,
+  "links": [],
+  "slow": [],
+  "medianDt": 16.7
+ },
+ "loadPrograms": [
+  "custom[SHADER_TYPE+HAS_NORMAL+FLIP_SIDED+PI+PI_HALF+RECIPROCAL_PI+EPSILON+SHADER_TYPE+FLIP_SIDED+DEPTH_PACKING+PI+PI_HALF+RECIPROCAL_PI+EPSILON]#e0660511",
+  "custom[SHADER_TYPE+USE_INSTANCING+USE_INSTANCING_COLOR+HAS_NORMAL+FLIP_SIDED+PI+PI_HALF+RECIPROCAL_PI+EPSILON+SHADER_TYPE+USE_COLOR+FLIP_SIDED+DEPTH_PACKING+PI+PI_HALF+RECIPROCAL_PI+EPSILON]#b07308de",
+  "custom[SHADER_TYPE+USE_INSTANCING+HAS_NORMAL+FLIP_SIDED+PI+PI_HALF+RECIPROCAL_PI+EPSILON+SHADER_TYPE+FLIP_SIDED+DEPTH_PACKING+PI+PI_HALF+RECIPROCAL_PI+EPSILON]#9909536b",
+  "custom[SHADER_TYPE+HAS_NORMAL+FLAT_SHADED+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS+SHADER_TYPE+FLAT_SHADED+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS+SUN_LIGHT_CASCADES]#21843c7f",
+  "custom[SHADER_TYPE+HAS_NORMAL+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS+SHADER_TYPE+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS+SUN_LIGHT_CASCADES]#afe8f4ad",
+  "custom[SHADER_TYPE+USE_INSTANCING+HAS_NORMAL+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS+SHADER_TYPE+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS+SUN_LIGHT_CASCADES]#54d9fa3b",
+  "custom[SHADER_TYPE+HAS_NORMAL+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS+SHADER_TYPE+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS]#62998bea",
+  "custom[SHADER_TYPE+USE_INSTANCING+USE_INSTANCING_COLOR+HAS_NORMAL+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS+SHADER_TYPE+USE_COLOR+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS+SUN_LIGHT_CASCADES]#9cde542a",
+  "custom[SHADER_TYPE+USE_INSTANCING+HAS_NORMAL+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS+SHADER_TYPE+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS]#f4a63762",
+  "custom[SHADER_TYPE+USE_INSTANCING+USE_INSTANCING_COLOR+HAS_NORMAL+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS+SHADER_TYPE+USE_COLOR+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS]#c281bdbf",
+  "custom[SHADER_TYPE+USE_MAP+USE_EMISSIVEMAP+MAP_UV+EMISSIVEMAP_UV+HAS_NORMAL+FLAT_SHADED+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS+SHADER_TYPE+USE_MAP+USE_EMISSIVEMAP+FLAT_SHADED+PI+PI_HALF+RECIPROCAL_PI+EPSILON+ENV_WORLDPOS+SUN_LIGHT_CASCADES]#169508ca"
+ ],
+ "loaf": [
+  {
+   "t": 0,
+   "dur": 236,
+   "y": 0,
+   "scripts": [
+    "classic-script:http://localhost:4100/_next/static/chunks/39_j1bdzreq0m.js:73ms:39_j1bdzreq0m.js:",
+    "classic-script:http://localhost:4100/_next/static/chunks/3h6cisbus6rwc.js:9ms:3h6cisbus6rwc.js:",
+    "event-listener:MessagePort.onmessage:6ms:39_j1bdzreq0m.js:z",
+    "event-listener:MessagePort.onmessage:5ms:39_j1bdzreq0m.js:z",
+    "event-listener:MessagePort.onmessage:5ms:39_j1bdzreq0m.js:z",
+    "event-listener:MessagePort.onmessage:10ms:39_j1bdzreq0m.js:z",
+    "event-listener:MessagePort.onmessage:5ms:39_j1bdzreq0m.js:z",
+    "event-listener:MessagePort.onmessage:5ms:39_j1bdzreq0m.js:z",
+    "event-listener:MessagePort.onmessage:6ms:39_j1bdzreq0m.js:z",
+    "event-listener:MessagePort.onmessage:5ms:39_j1bdzreq0m.js:z"
+   ]
+  },
+  {
+   "t": 242,
+   "dur": 66,
+   "y": 0,
+   "scripts": [
+    "event-listener:MessagePort.onmessage:8ms:39_j1bdzreq0m.js:z",
+    "user-callback:FrameRequestCallback:36ms:28p1r95i7wvox.js:o"
+   ]
+  },
+  {
+   "t": 1160,
+   "dur": 151,
+   "y": 0,
+   "scripts": [
+    "classic-script:http://localhost:4100/_next/static/chunks/39ne97v2whhoy.js:150ms:39ne97v2whhoy.js:"
+   ]
+  },
+  {
+   "t": 1466,
+   "dur": 673,
+   "y": 0,
+   "scripts": [
+    "event-listener:MessagePort.onmessage:144ms:39_j1bdzreq0m.js:z",
+    "user-callback:FrameRequestCallback:526ms:39ne97v2whhoy.js:c4"
+   ]
+  },
+  {
+   "t": 2149,
+   "dur": 369,
+   "y": 0,
+   "scripts": [
+    "event-listener:MessagePort.onmessage:13ms:39ne97v2whhoy.js:P",
+    "user-callback:FrameRequestCallback:349ms:39ne97v2whhoy.js:c4"
+   ]
+  },
+  {
+   "t": 10763,
+   "dur": 196,
+   "y": 1761,
+   "scripts": [
+    "user-callback:FrameRequestCallback:184ms:39ne97v2whhoy.js:c4"
+   ]
+  }
+ ]
+}
